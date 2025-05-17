@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "smart-helmet",
-    "project_version":    "1",
+    "project_version":    "42e9799-dirty",
     "project_path":       "C:/Users/lukaz/OneDrive/Desktop/smart-helmet",
     "idf_path":           "C:/Users/lukaz/esp/v5.3.2/esp-idf",
     "build_dir":          "C:/Users/lukaz/OneDrive/Desktop/smart-helmet/build",
@@ -1195,7 +1195,7 @@
             "managed_reqs": [],
             "managed_priv_reqs": [ "espressif__led_strip" ],
             "file": "C:/Users/lukaz/OneDrive/Desktop/smart-helmet/build/esp-idf/main/libmain.a",
-            "sources": [ "C:/Users/lukaz/OneDrive/Desktop/smart-helmet/main/i2c/i2c_sensor.c", "C:/Users/lukaz/OneDrive/Desktop/smart-helmet/main/main.c", "C:/Users/lukaz/OneDrive/Desktop/smart-helmet/main/driver/sht3x.c", "C:/Users/lukaz/OneDrive/Desktop/smart-helmet/main/i2c/i2c_lcd.c" ],
+            "sources": [ "C:/Users/lukaz/OneDrive/Desktop/smart-helmet/main/drivers/bme69x/bme69x.c", "C:/Users/lukaz/OneDrive/Desktop/smart-helmet/main/drivers/bmi270/bmi2.c", "C:/Users/lukaz/OneDrive/Desktop/smart-helmet/main/drivers/bmi270/bmi270.c", "C:/Users/lukaz/OneDrive/Desktop/smart-helmet/main/main.c", "C:/Users/lukaz/OneDrive/Desktop/smart-helmet/main/i2c/i2c_bmi270.c", "C:/Users/lukaz/OneDrive/Desktop/smart-helmet/main/i2c/i2c_bme690.c" ],
             "include_dirs": [ "." ]
         },
         "mbedtls": {
